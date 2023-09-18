@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.game-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.button{
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.resultContainer{
+    text-align: center;
+}
+
+#endgamebutton{
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 20px; 
+    margin-top: 10px;
+
+}
+#result,#playerscore,#hands{
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+}
